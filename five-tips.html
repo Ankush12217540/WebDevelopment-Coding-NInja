@@ -2,7 +2,8 @@
 <html>
 <head>
     <title> Five tips for front-end Development </title>
-    <style type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+ <!--    <style type="text/css">
         
         p{
             color: blue;
@@ -10,20 +11,20 @@
         }
         
     </style> 
-
+ -->
 </head>
 <body>
 
     <header id="main-header">
 
-        <a href="http://blog.codingninjas.in/"><img src="image/logo_switchtocode.png" alt="coding ninjas logo" /></a>
-
-        <div>
+        <a href="http://blog.codingninjas.in/"><img src="logo_switchtocode.png" alt="coding ninjas logo" /></a>
+        <div id="site-disc">
             <p><a href="http://blog.codingninjas.in/">blog.codingninjas.in</a></p>
-            <p> Coding Ninjas Official Blog</p>
+            <p id="blog-description"> Coding Ninjas Official Blog</p>
+            <p>Date</p>
         </div>
         <div>
-            <img src="image/coding_ninjas.png">
+            <img src="coding_ninjas.png">
         </div>
     </header>
     <div>
@@ -31,7 +32,7 @@
         <main>
 
             <header>
-                <h1 id="blog-title"> Five tips for front-end web development </h1>
+                <h1 class="uppercase" id="blog-title"> Five tips for front-end web development </h1>
             </header>
 
 
@@ -39,10 +40,10 @@
 
             <article>
                 <div>
-                    <img src="image/five-tips-for-front-end-web-development.jpg">
+                    <img src="five-tips-for-front-end-web-development.jpg">
                 </div>
                 <!--<p style = "color:blue; font-size: 30px;">-->
-                <p style="color: red;">
+                <p style="color: red; font-size: 20px;">
                     Don’t you just love exploring beautiful and neat sites with a clean user interface? While most of us would reply with an assertive ‘YES,’ little, do we know the kind of effort and skill that goes into making a website attractive and user-friendly. The secret to creating an impressive site is to master the art of front-end development, and no, it is not as easy as it seems!
                 </p>
                 <p>
@@ -51,13 +52,13 @@
 
                 <ol>
                     <li>
-                        <h4> Commenting </h4>
+                        <h4 class="uppercase cursive"> Commenting </h4>
                         <p>
                             Commenting is one such practice that is often ignored by programmers, especially for codes that are written by multiple programmers. But remember, commenting is an important part of project you create. With proper comments and organised files its always easier for you or others to jump in and understand where things are at and how they work.
                         </p>
                     </li>
                     <li>
-                        <h4> Invest In Productive Tools. </h4>
+                        <h4 class="uppercase cursive"> Invest In Productive Tools. </h4>
                         <p>
                             The Internet is teeming with a host of web development tools, from browser add-ons to smart plugins, the amount of choices available now is massive! So, why not invest in some really productive web tools that’ll help you improve your front-end designing skills? Tools like Sublime Text, jQuery, Emmet, Bootstrap, and Sass are nothing short of a godsend for web developers.
                         </p>
