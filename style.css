@@ -24,7 +24,7 @@ h1,p{
 	text-transform: uppercase;
 	font-family: cursive;
 } */
-#blog-title:hover{
+#blog-title:hover{ 
 	color: orange;
 }
 #site-disc p{
